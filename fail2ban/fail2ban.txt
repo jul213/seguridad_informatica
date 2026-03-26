@@ -8,3 +8,6 @@ iptables -A INPUT -p tcp --dport 22 -m recent --name ruidoso --update --seconds 
 
 Anexamos los intentos y creamos la lista
 iptables -A INPUT -p tcp --dport 22 -m recent --set --name ruidoso -j ACCEPT
+
+podemos ver los timestamps del atacante en nuestra lista que creamos en una carpeta especifica del sistema
+cat /proc/net/xt_recent/ruidoso
