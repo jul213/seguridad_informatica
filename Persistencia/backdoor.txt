@@ -1,0 +1,9 @@
+soy un atacante no quiero perder el acceso a un sistema
+
+# -l: Listen (Escuchar)
+# -v: Verbose (Dime qué pasa)
+# -n: No DNS
+# -p: Puerto (usaremos el 4444, un clásico)
+nc -lvn 4444
+
+esperare a que me responda
