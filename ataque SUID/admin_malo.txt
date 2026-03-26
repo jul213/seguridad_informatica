@@ -1,0 +1,3 @@
+como administrador soy re inteligente y dejo un archivo binario del sistema con el bit SUID en este caso el find
+root@ad0559c021f9:/# chmod 4755 /usr/bin/find
+
