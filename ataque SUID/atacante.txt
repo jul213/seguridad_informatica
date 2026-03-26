@@ -1,0 +1,4 @@
+soy el atacante y conozco la contraseña por un ataque de fuerza bruta me conectare a la maquina victima
+ssh operario@172.20.0.10
+contraseña: 1234
+
