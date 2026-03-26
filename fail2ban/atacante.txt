@@ -1,0 +1,6 @@
+un atacante por ejemplo un kali linux probaria con el famoso hydra
+
+hydra -l operario -P pass.txt ssh://172.20.0.10
+
+-l = usuario del sistema a atacar
+-p = pasar el diccionario para hacer fuerza bruta
