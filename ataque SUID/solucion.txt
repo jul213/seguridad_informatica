@@ -1,0 +1,6 @@
+soy el administardor me he dado cuneta de mi errror lo corregire ahora mismo !!!!
+
+root@ad0559c021f9:/# chmod u-s /usr/bin/find
+root@ad0559c021f9:/#
+
+con esto deberia ser suficiente ya no pueden usar el find en mi contra
