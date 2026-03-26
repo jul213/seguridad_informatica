@@ -1,0 +1,9 @@
+podemos simular el fail2ban con iptables en la maquina que queremos defender
+
+primero borramos reglas
+iptables -F
+
+luego definimos la regla que cuando la ip atacante intente 3 intentos de contraseña lo bloquee
+iptables -A INPUT -p tcp --dport 22 -m recent --name ruidoso --update --seconds 60 --hitcount 3 -j DROP
+
+iptables -A INPUT -p tcp --dport 22 -m recent --set --name ruidoso -j ACCEPT
