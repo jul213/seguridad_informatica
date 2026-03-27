@@ -48,3 +48,13 @@ ahora damos permisos de ejecucion
 ┌──(root㉿8314deb831e2)-[/]
 └─#
 
+ahora solo falta arrancar el servidor con el siguiente comando
+
+┌──(root㉿8314deb831e2)-[/]
+└─# ./chisel server -p 8080 --reverse
+2026/03/27 07:56:48 server: Reverse tunnelling enabled
+2026/03/27 07:56:48 server: Fingerprint 2Y44YH3+joazvy28HO2jghaZG1Uab9n2ScMDuAlcEdI=
+2026/03/27 07:56:48 server: Listening on http://0.0.0.0:8080
+
+
+
