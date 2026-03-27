@@ -6,3 +6,8 @@ root@ad0559c021f9:/#
 
 vaya lo tenemos :D
 
+para detectar un pivoting podemos utilizar el siguiente comando
+
+tcpdump -i eth0 host 172.20.0.10
+
+con esto detectamos si hay un intruso intentando conectar a las multiples maquinas de la red corporativa
