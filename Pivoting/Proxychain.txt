@@ -1,0 +1,35 @@
+-Una vez hecho esto lo de chisel ya podemos utilizar el proxychains para saltar a otras maquinas
+
+primero instalamos proxychains
+
+┌──(root㉿8314deb831e2)-[/]
+└─# apt install proxychains
+Installing:
+  proxychains
+
+Installing dependencies:
+  bind9-dnsutils  bind9-libs  libjemalloc2   libprotobuf-c1   liburcu8t64
+  bind9-host      libfstrm0   libmaxminddb0  libproxychains3  libuv1t64
+
+Suggested packages:
+  mmdb-bin
+
+Summary:
+  Upgrading: 0, Installing: 11, Removing: 0, Not Upgrading: 0
+  Download size: 2061 kB
+  Space needed: 6267 kB / 1023 GB available
+
+Continue? [Y/n] y
+Get:1 http://http.kali.org/kali kali-rolling/main amd64 libfstrm0 amd64 0.6.1-1+b4 [22.3 kB]
+Get:6 http://http.kali.org/kali kali-rolling/main amd64 libuv1t64 amd64 1.51.0-2+b1 [156 kB]
+Get:2 http://kali.download/kali kali-rolling/main amd64 libjemalloc2 amd64 5.3.0-4 [280 kB]
+Get:5 http://mirror.es.cdn-perfprod.com/kali kali-rolling/main amd64 liburcu8t64 amd64 0.15.6-1 [77.4 kB]
+Get:3 http://http.kali.org/kali kali-rolling/main amd64 libmaxminddb0 amd64 1.12.2-1+b1 [26.2 kB]
+Get:4 http://http.kali.org/kali kali-rolling/main amd64 libprotobuf-c1 amd64 1.5.1-1+b1 [21.2 kB]
+Get:7 http://kali.download/kali kali-rolling/main amd64 bind9-libs amd64 1:9.20.20-1 [1243 kB]
+Get:8 http://kali.download/kali kali-rolling/main amd64 bind9-host amd64 1:9.20.20-1 [50.8 kB]
+Get:9 http://kali.download/kali kali-rolling/main amd64 bind9-dnsutils amd64 1:9.20.20-1 [161 kB]
+Get:10 http://http.kali.org/kali kali-rolling/main amd64 libproxychains3 amd64 3.1-9+b3 [13.5 kB]
+Get:11 http://kali.download/kali kali-rolling/main amd64 proxychains all 3.1-9 [9140 B]
+Fetched 2061 kB in 1s (1890 kB/s)
+
