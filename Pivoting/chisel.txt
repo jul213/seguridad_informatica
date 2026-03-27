@@ -28,3 +28,10 @@ boot  dev        home  lib64  mnt    pass.txt  root  sbin  sys  usr
 ┌──(root㉿8314deb831e2)-[/]
 └─#
 
+ahora descomprimimos el binario
+
+┌──(root㉿8314deb831e2)-[/]
+└─# gunzip chisel.gz
+
+┌──(root㉿8314deb831e2)-[/]
+└─#
