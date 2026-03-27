@@ -35,3 +35,7 @@ ahora descomprimimos el binario
 
 ┌──(root㉿8314deb831e2)-[/]
 └─#
+
+movemos y ponemos el nombre limpio
+
+mv chisel_1.10.0_linux_amd64 chisel 2>/dev/null || mv chisel.gz_extracted chisel 2>/dev/null || chmod +x chisel
