@@ -1,0 +1,8 @@
+hola soy el defensor para asegurarme que no hay un tunel con chisel corriendo en el sistema, tienes que ejecutar este comando
+
+root@ad0559c021f9:/# ss -ntp | grep 8080
+ESTAB 0      0        172.20.0.10:44244  172.20.0.20:8080 users:(("chisel",pid=175,fd=3))
+root@ad0559c021f9:/#
+
+vaya lo tenemos :D
+
