@@ -16,3 +16,5 @@ lrwxrwxrwx 1 root root   48 Mar 26 13:26 dbus-org.freedesktop.resolve1.service -
 drwxr-xr-x 2 root root 4096 Mar 26 13:26 sysinit.target.wants
 lrwxrwxrwx 1 root root   49 Mar 26 13:26 dbus-org.freedesktop.timesync1.service -> /usr/lib/systemd/system/systemd-timesyncd.service
 drwxr-xr-x 2 root root 4096 Mar 26 13:25 getty.target.wants
+
+aqui podriamos ver la hora para saber si se puso un systemd falso
