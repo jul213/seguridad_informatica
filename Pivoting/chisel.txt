@@ -7,5 +7,13 @@
 -instalamos wget primero si no lo tienes: (Si no deja como en mi caso)
 puedes usar curl
 
+┌──(root㉿8314deb831e2)-[/]
+└─# curl -L https://github.com/jpillora/chisel/releases/download/v1.10.0/chisel_1.10.0_linux_amd64.gz -o chisel.gz
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+100  3.55M 100  3.55M   0      0  2.69M      0   00:01   00:01              0
 
+┌──(root㉿8314deb831e2)-[/]
+└─#
 
