@@ -33,3 +33,11 @@ Get:10 http://http.kali.org/kali kali-rolling/main amd64 libproxychains3 amd64 3
 Get:11 http://kali.download/kali kali-rolling/main amd64 proxychains all 3.1-9 [9140 B]
 Fetched 2061 kB in 1s (1890 kB/s)
 
+-Modificamos el archivo de conficuracion de proxychains
+
+┌──(root㉿8314deb831e2)-[/]
+└─# nano /etc/proxychains.conf
+
+┌──(root㉿8314deb831e2)-[/]
+└─#
+
