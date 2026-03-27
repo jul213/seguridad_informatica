@@ -1,0 +1,4 @@
+soy el defensor para ver la integridad de los archivos binarios que no hayan sido modificados ejecuta el siguiente comando
+
+root@ad0559c021f9:/# debsums -c
+root@ad0559c021f9:/#
