@@ -70,3 +70,4 @@ socks4  127.0.0.1 9050
 socks5  127.0.0.1 1080 => esto es lo que pones para hacer el pivoting
 
 
+apt install proxychains4 -y => esta alternativa es mas moderna al proxy normal
