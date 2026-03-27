@@ -1,0 +1,5 @@
+hola soy el atacante rastreador ahora ya estando dentro del sistema utilizare chisel para una reverse shell
+
+
+primero instalamos el binario en la maquina atacante
+
