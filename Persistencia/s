@@ -2,3 +2,17 @@ soy el defensor para ver la integridad de los archivos binarios que no hayan sid
 
 root@ad0559c021f9:/# debsums -c
 root@ad0559c021f9:/#
+
+para ver si hay un Systemd falso ejecutariamos el siguiente comando
+
+root@ad0559c021f9:/# ls -lt /etc/systemd/system/ | head -n 10
+total 24
+drwxr-xr-x 1 root root 4096 Mar 26 14:20 timers.target.wants
+drwxr-xr-x 1 root root 4096 Mar 26 14:20 multi-user.target.wants
+lrwxrwxrwx 1 root root   39 Mar 26 14:20 syslog.service -> /usr/lib/systemd/system/rsyslog.service
+drwxr-xr-x 2 root root 4096 Mar 26 13:26 sockets.target.wants
+drwxr-xr-x 2 root root 4096 Mar 26 13:26 ssh.service.requires
+lrwxrwxrwx 1 root root   48 Mar 26 13:26 dbus-org.freedesktop.resolve1.service -> /usr/lib/systemd/system/systemd-resolved.service
+drwxr-xr-x 2 root root 4096 Mar 26 13:26 sysinit.target.wants
+lrwxrwxrwx 1 root root   49 Mar 26 13:26 dbus-org.freedesktop.timesync1.service -> /usr/lib/systemd/system/systemd-timesyncd.service
+drwxr-xr-x 2 root root 4096 Mar 26 13:25 getty.target.wants
