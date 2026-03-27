@@ -41,3 +41,32 @@ Fetched 2061 kB in 1s (1890 kB/s)
 ┌──(root㉿8314deb831e2)-[/]
 └─#
 
+- en la ultima linea pon esto 
+
+  GNU nano 8.7.1                                     /etc/proxychains.conf *                                            tcp_read_time_out 15000
+tcp_connect_time_out 8000
+
+# ProxyList format
+#       type  host  port [user pass]
+#       (values separated by 'tab' or 'blank')
+#
+#
+#        Examples:
+#
+#               socks5  192.168.67.78   1080    lamer   secret
+#               http    192.168.89.3    8080    justu   hidden
+#               socks4  192.168.1.49    1080
+#               http    192.168.39.93   8080
+#
+#
+#       proxy types: http, socks4, socks5
+#        ( auth types supported: "basic"-http  "user/pass"-socks )
+#
+[ProxyList]
+# add proxy here ...
+# meanwile
+# defaults set to "tor"
+socks4  127.0.0.1 9050
+socks5  127.0.0.1 1080 => esto es lo que pones para hacer el pivoting
+
+
